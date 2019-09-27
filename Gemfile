@@ -57,4 +57,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # simplecov
-gem 'simplecov', require: false, group: :test
+gem 'simplecov', '~> 0.17.1', require: false, group: :test
