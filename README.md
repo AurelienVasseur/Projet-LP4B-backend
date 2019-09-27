@@ -1,5 +1,7 @@
 # README
 
+[![Build Status](https://travis-ci.org/AurelienVasseur/Projet-LP4B-backend.svg?branch=master)](https://travis-ci.org/AurelienVasseur/Projet-LP4B-backend)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/8bae0a5844985f137dc5/maintainability)](https://codeclimate.com/github/AurelienVasseur/Projet-LP4B-backend/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8bae0a5844985f137dc5/test_coverage)](https://codeclimate.com/github/AurelienVasseur/Projet-LP4B-backend/test_coverage)
