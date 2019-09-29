@@ -1,16 +1,22 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+ruby '2.3.3'
 #ruby '<= 2.6.4'  # 2.3.3
 #ruby '2.3.3', group: [:development, :test]
-ruby '2.6.4'
+#ruby '2.6.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.3.6', group: [:development, :test]
+#gem 'sqlite3', '~> 1.3.6' #, group: [:production, :development, :test]
+gem 'sqlite3', '~> 1.3.6'
+#gem 'sqlite3', '~> 1.3', '>= 1.3.11'
+
 # PostgreSQ
-gem 'pg', '~> 0.18.4', group: :production
+#gem 'pg', '~> 0.18.4', group: :production
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
