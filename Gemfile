@@ -22,8 +22,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #end
 
 if ENV['RAILS_ENV'] == 'production'
-  ruby "2.3.3", :engine => "jruby", :engine_version => "9.1.17.0"
-#  ruby '2.6.4'
+#  ruby "2.3.3", :engine => "jruby", :engine_version => "9.1.17.0"
+  ruby '2.6.4'
 else
   ruby '2.3.3'
 end
