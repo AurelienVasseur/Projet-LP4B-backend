@@ -13,12 +13,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #end
 #ruby ENV['CUSTOM_RUBY_VERSION'] || '2.3.3'
 
-if ENV["JRUBY"] || RUBY_PLATFORM == "java"
-# https://devcenter.heroku.com/articles/ruby-support#ruby-versions
-  ruby "2.3.3", :engine => "jruby", :engine_version => "9.1.17.0"
-else
-  ruby '2.3.3'
-end
+#if ENV["JRUBY"] || RUBY_PLATFORM == "java"
+  # https://devcenter.heroku.com/articles/ruby-support#ruby-versions
+  #ruby "2.3.3", :engine => "jruby", :engine_version => "9.1.17.0"
+#  ruby '2.6.4'
+#else
+#  ruby '2.3.3'
+#end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
