@@ -8,25 +8,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 #ruby '2.3.3', :group => [:development, :test]
 #ruby '2.6.4', :group => [:production]
 
-#group :production do
-#  ENV['CUSTOM_RUBY_VERSION'] = '2.6.4'
-#end
-#ruby ENV['CUSTOM_RUBY_VERSION'] || '2.3.3'
-
-#if RAILS_ENV == production
-  # https://devcenter.heroku.com/articles/ruby-support#ruby-versions
+#if ENV['RAILS_ENV'] == 'production'
 #  ruby "2.3.3", :engine => "jruby", :engine_version => "9.1.17.0"
 #  ruby '2.6.4'
 #else
 #  ruby '2.3.3'
 #end
-
-if ENV['RAILS_ENV'] == 'production'
-#  ruby "2.3.3", :engine => "jruby", :engine_version => "9.1.17.0"
-  ruby '2.6.4'
-else
-  ruby '2.3.3'
-end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
