@@ -1,20 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Ruby version - 2.3.3 OK
-#ruby '2.3.3' || '2.6.4'
-#ruby '~> 2.3'
-#ruby "2.3.3", :engine => "jruby", :engine_version => "9.1.17.0"
-#ruby '2.3.3', :group => [:development, :test]
-#ruby '2.6.4', :group => [:production]
-
-#if ENV['RAILS_ENV'] == 'production'
-#  ruby "2.3.3", :engine => "jruby", :engine_version => "9.1.17.0"
-#  ruby '2.6.4'
-#else
-#  ruby '2.3.3'
-#end
-
+# Ruby version 
 ruby '~> 2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
